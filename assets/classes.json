@@ -1,0 +1,16 @@
+{
+  "0": {"id": "algodon-verticillium-sintomas-iniciales", "nombre": "Algodón: Verticillium (síntomas iniciales)", "cientifico": "Verticillium dahliae"},
+  "1": {"id": "algodon-verticillium-manchas", "nombre": "Algodón: Verticillium (manchas foliares)", "cientifico": "Verticillium dahliae"},
+  "2": {"id": "tomate-manchas-bacterianas", "nombre": "Mancha bacteriana", "cientifico": "Tomato_Bacterial_spot"},
+  "3": {"id": "tomate-tizon-temprano", "nombre": "Tizón temprano", "cientifico": "Tomato_Early_blight"},
+  "4": {"id": "tomate-tizon-tardio", "nombre": "Tizón tardío", "cientifico": "Tomato_Late_blight"},
+  "5": {"id": "tomate-moho-hoja", "nombre": "Moho de la hoja", "cientifico": "Tomato_Leaf_Mold"},
+  "6": {"id": "tomate-septoriosis", "nombre": "Mancha foliar por Septoria", "cientifico": "Tomato_Septoria_leaf_spot"},
+  "7": {"id": "tomate-acaros", "nombre": "Daño por ácaros (araña roja)", "cientifico": "Tomato_Spider_mites_Two_spotted_spider_mite"},
+  "8": {"id": "tomate-mancha-objetivo", "nombre": "Mancha objetivo", "cientifico": "Tomato__Target_Spot"},
+  "9": {"id": "tomate-virus-rizado-amarillo", "nombre": "Virus del rizado amarillo", "cientifico": "Tomato__Tomato_YellowLeaf__Curl_Virus"},
+  "10": {"id": "tomate-sana", "nombre": "Hoja sana", "cientifico": "Tomato_healthy"},
+  "11": {"id": "cancro-bacteriano-tomate", "nombre": "Cancro bacteriano del tomate", "cientifico": "Clavibacter michiganensis"},
+  "12": {"id": "moho-gris-tomate", "nombre": "Moho gris", "cientifico": "Botryotinia fuckeliana"},
+  "13": {"id": "trips-virus-bronceado-tomate", "nombre": "Daño por trips y virus del bronceado", "cientifico": "TSWV"}
+}

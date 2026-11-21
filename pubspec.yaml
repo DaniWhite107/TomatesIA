@@ -1,0 +1,66 @@
+name: dexia_hojas_tomate
+description: Clasificador de enfermedades en hojas de tomate con IA en el dispositivo.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Imagen
+  image_picker: ^1.1.2
+  permission_handler: ^11.3.1
+  crop_your_image: ^1.0.0
+
+  # Inferencia on-device 
+  tflite_flutter: ^0.11.0
+  image: ^4.2.0
+  path_provider: ^2.1.5
+
+  # Base de datos local
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+
+  # GPS
+  geolocator: ^13.0.2
+
+  # Mapa
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+
+  # Navegación externa
+  url_launcher: ^6.3.1
+
+  # VR WebView
+  webview_flutter: ^4.10.0
+
+  # Utilidades
+  intl: ^0.19.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Nunito-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Nunito-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Nunito-ExtraBold.ttf
+          weight: 800
+  assets:
+    - assets/EfficientNetB0_destilado.tflite
+    - assets/classes.json
+    - assets/vr_scene.html
+    - assets/tomato.png
